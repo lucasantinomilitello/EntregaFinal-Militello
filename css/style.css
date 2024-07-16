@@ -1,119 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
+
 /* Logo y Navbar*/
-header {
+#menu a {
+    font-size: 15px;
+    font-weight: lighter;
+    color: #AED2FF;
+  }
+   
+  .navbar {
     background-color: #27005D;
-    color: white;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo img {
+    padding: 30px;
+    font-size: 18px;
+  }
+  .navbar img {
     width: 100px;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 1rem;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
+  }
+  .navbar .navbar-nav {
+    gap: 40px;
+  }
 /* Fin de sección*/
 
-/* Sección introductoria*/
-main {
-    padding: 2rem;
+
+/*Sección intro y explorar*/
+#intro, #explorar {
+    background-color: #332683;
+    color: #AED2FF;
+    padding: 50px 0;
 }
 
-.intro {
-    text-align: center;
-    background-color: #fff;
-    padding: 2rem;
-    margin-bottom: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+#intro h1 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
-.intro h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    color: #333;
+#intro .intro-text {
+    margin-bottom: 30px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+
 }
 
-.intro p {
-    font-size: 1.25rem;
-    margin-bottom: 1.5rem;
-    color: #666;
+#intro img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
 }
 
-.descripcion {
-    text-align: center;
-    margin: 2rem 0;
+#intro .skills-text {
+    color: white;
+    font-weight: bolder;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
 }
 
-.descripcion p {
-    font-size: 1.25rem;
-    color: #666;
+#explorar h2 {
+    margin-bottom: 30px;
+    text-decoration: underline;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
-/* Fin de Sección*/
-
-/* Sección Explorar*/
-
-.explorar {
-    text-align: center;
-    margin: 2rem 0;
-    padding: 2rem;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+#explorar h4 {
+    margin-bottom: 10px;
 }
 
-.explorar h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: #333;
+#explorar p {
+    color: #AED2FF;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+/*Fin de la sección*/
+
+/*Queries para la seccion intro y explorar*/
+@media (max-width: 768px) {
+    #intro {
+        padding: 30px 0;
+    }
+    #intro img {
+        width: 250px;
+        height: 250px;
+    }
+    #intro .skills-text {
+        font-size: 16px;
+    }
+    #explorar {
+        padding: 30px 0;
+    }
 }
 
-.explorar .explorar-item {
-    margin-bottom: 1.5rem;
-}
 
-.explorar .explorar-item h3 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-}
 
-.explorar .explorar-item p {
-    font-size: 1rem;
-    color: #666;
-}
 
-.explorar .explorar-item a {
-    text-decoration: none;
-    color: #007BFF;
-    transition: color 0.3s;
-}
 
-.explorar .explorar-item a:hover {
-    color: #0056b3;
-}
 
 /* Inicio de Footer*/
 footer {
-    background-color: rgb(228, 241, 255);
+    background-color: #b8d0eb;
     color: black;
     text-align: center;
+    text-decoration: underline;
     padding: 10px;
   }
   footer p {
