@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portofolio Luca Santino Militello Full Stack Web Developer">
     <meta name="keywords" content="HTML CSS BOOTSTRAP JAVASCRIPT FRONT-END FULL-STACK BACK-END DEVELOPER">
+<!--Fonts Awesome -->
+<script src="https://kit.fontawesome.com/7401713c45.js" crossorigin="anonymous"></script>
 <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
 <!-- Bootstrap -->
@@ -15,7 +17,7 @@
 </head>
 
 <body>
-    <!-- Logo de mi Portofolio y Barra de Navegación -->
+<!-- Logo de mi Portofolio y Barra de Navegación -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark" id="menu">
           <div class="container-fluid">
@@ -37,7 +39,7 @@
                   <a class="nav-link"  href="../pages/portafolio.html"><span class="fs-3 fw-bold">Portafolio</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../pages/cv.html"><span class="fs-3 fw-bold">Curriculum</span></a>
+                  <a class="nav-link" href="../pages/skills.html"><span class="fs-3 fw-bold">Skills</span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link"  href="../pages/contacto.html"><span class="fs-3 fw-bold">Contacto</span></a>
@@ -47,17 +49,93 @@
           </div>
       </nav>
       </header>
-    <!-- Fin de Logo y Barra de Navegación -->
+<!-- Fin de Logo y Barra de Navegación -->
 
-    <!-- Sección Contacto -->
+<!-- Sección Contacto -->
+<section id="contacto" class="py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 text-center">
+        <img src="../img/Contacto.png" class="img-fluid header-img" alt="Contacto">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 d-flex">
+        <div class="map-container me-4">
+          <h3 class="map-title">Me podés encontrar acá:</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26282.194773968644!2d-58.50934639674031!3d-34.571924132161406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb65c360890c1%3A0x8bd20bac2f970066!2sVilla%20Urquiza%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1694472221522!5m2!1ses-419!2sar" 
+                  width="100%" 
+                  height="350" 
+                  style="border:0;" 
+                  allowfullscreen="" 
+                  loading="lazy" 
+                  referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+          <p class="map-description">Podés comunicarte conmigo llenando el formulario a la derecha!</p>
+          <h5 class="contact-title">O también por:</h5>
+          <div class="contact-info">
+            <p><i class="contact-icon fa-solid fa-envelope"></i> lucaamilitello@hotmail.com</p>
+            <p><i class="contact-icon fa-solid fa-phone"></i> +54 9 11 31608113</p>
+          </div>
+        </div>
+        <div class="form-container flex-grow-1">
+          <form action="https://formspree.io/f/{your_form_id}" method="POST">
+            <div class="mb-3">
+              <img src="../img/Nombre.png" class="img-fluid form-title-img" alt="Nombre">
+              <input type="text" class="form-control" id="name" name="name" placeholder=" Ingrese su nombre" required>
+            </div>
+            <div class="mb-3">
+              <img src="../img/Email.png" class="img-fluid form-title-img" alt="Email">
+              <input type="email" class="form-control" id="email" name="email" placeholder="Ingrese su email" required>
+            </div>
+            <div class="mb-3">
+              <img src="../img/Asunto.png" class="img-fluid form-title-img" alt="Asunto">
+              <input type="text" class="form-control" id="subject" name="subject" placeholder="Mencione el asunto" required>
+            </div>
+            <div class="mb-3">
+              <img src="../img/Mensaje.png" class="img-fluid form-title-img" alt="Mensaje">
+              <textarea class="form-control" id="message" name="message" rows="5" placeholder=" Escriba su mensaje" required></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Fin de la seccion -->
 
-    <!-- Inicio de Footer -->
+<!-- Seccion de redes sociales-->
+<section id="redes-sociales">
+  <div class="container text-center">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <img src="../img/MisRedes.png" class="img-fluid header-img" alt="Redes Sociales">
+      </div>
+    </div>
+  <div class="contenedor">
+    <a href="https://www.linkedin.com/in/luca-santino-militello-874478195/"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://www.instagram.com/lucaa_militello/"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://wa.me/+5491131608113"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="https://github.com/lucasantinomilitello"><i class="fa-brands fa-github"></i></a>
+  </div>
+</section>
+<!-- Fin de la seccion  redes sociales-->
+
+
+
+
+
+
+<!-- Inicio de Footer -->
 <footer>    
     <p>Diseño Web: <strong> Luca Militello </strong></p>
 
     <p>&copy; 2024 Militello Luca Santino. Todos los derechos reservados.</p>
 </footer>
-     <!-- Fin de Footer -->
+<!-- Fin de Footer -->
 
 
 <!-- Bootstrap -->
