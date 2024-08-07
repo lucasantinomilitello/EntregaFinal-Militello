@@ -1,0 +1,28 @@
+/*Queries para la seccion intro y explorar*/
+@media (max-width: 768px) {
+    #intro {
+      padding: 30px 0;
+    }
+    #intro img {
+      width: 250px;
+      height: 250px;
+    }
+    #intro .skills-text {
+      font-size: 16px;
+    }
+    #explorar {
+      padding: 30px 0;
+    }
+  }
+/*Fin de seccion*/
+
+/*Queries para la seccion contacto*/
+  @media (max-width: 768px) {
+    .d-flex {
+      flex-direction: column;
+    }
+    .map-container {
+      margin-right: 0;
+    }
+  }
+/*Fin de la seccion*/

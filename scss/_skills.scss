@@ -1,0 +1,32 @@
+/*Seccion Skills*/
+.skills-section {
+    background-color: $color-body;
+    padding: 60px 0;
+  }
+  
+  .skill {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .skill-icon img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .skill-icon img.html-logo {
+    width: 120px;
+  }
+  
+  .skill-icon img:hover {
+    transform: scale(1.1);
+  }
+  
+  .header-img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+  } 
+/*Fin de la sección*/

@@ -1,0 +1,21 @@
+/* Logo y Navbar*/
+#menu a {
+    font-size: 15px;
+    font-weight: lighter;
+    color: $color-letra;
+  }
+  
+  .navbar {
+    background-color: #27005D;
+    padding: 30px;
+    font-size: 18px;
+  }
+  
+  .navbar img {
+    width: 100px;
+  }
+  
+  .navbar .navbar-nav {
+    gap: 40px;
+  }
+  /* Fin de sección*/

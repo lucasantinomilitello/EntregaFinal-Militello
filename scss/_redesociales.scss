@@ -1,0 +1,49 @@
+/*Inicio de redes sociales*/
+#redes-sociales {
+    background-color: $color-body;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .contenedor {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  i {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.35);
+    transition: 0.3s ease;
+  }
+  
+  .fa-linkedin:hover {
+    background-color: #0e76a8;
+    color: white;
+    box-shadow: 0 0 15px #0e76a8 0 0 45px #0e76a8 0 0 75px #0e76a8 0 0 115px #0e76a8;
+  }
+  
+  .fa-instagram:hover {
+    background-color: #F56040;
+    color: white;
+    box-shadow: 0 0 15px #F56040 0 0 45px #F56040 0 0 75px #F56040 0 0 115px #F56040;
+  }
+  
+  .fa-whatsapp:hover {
+    background-color: #25D366;
+    color: white;
+    box-shadow: 0 0 15px #25D366 0 0 45px #25D366 0 0 75px #25D366 0 0 115px #25D366;
+  }
+  
+  .fa-github:hover {
+    background-color: #24292e;
+    color: white;
+    box-shadow: 0 0 15px #24292e 0 0 45px #24292e 0 0 75px #24292e 0 0 115px #24292e;
+  }
+/*Fin de la seccion*/  

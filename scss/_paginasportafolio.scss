@@ -1,0 +1,42 @@
+/*Seccion Paginas de Portafolio*/
+/*Warrior Fit*/
+.portfolio-title-h2 {
+    color: red;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+  }
+  
+  .portfolio-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .portfolio-item {
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-text, .portfolio-item, .portfolio-item strong {
+    color: white;
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  .portfolio-text a {
+    color: $color-letra;
+    text-decoration: none;
+  }
+  
+  .portfolio-text a:hover {
+    text-decoration: underline;
+    color: red;
+  }
+  
+  /*Stallion Energy*/
+  .project2 .portfolio-title-h2 {
+    color: yellow;
+  }
+  
+  .project2 .portfolio-text a:hover {
+    color: yellow;
+  } 
+/*Fin de la seccion*/

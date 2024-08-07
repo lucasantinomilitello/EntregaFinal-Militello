@@ -1,0 +1,54 @@
+/*Mixin*/
+@mixin texto1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+/*Fin de Mixin*/
+
+/*Seccion Portofolio*/
+#portfolio {
+    background-color: $color-body;
+    padding: 20px;
+  }
+  
+  .portfolio-container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .portfolio-image-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-image {
+    width: 200px;
+    height: auto;
+  }
+  
+  .portfolio-item-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  
+  .portfolio-image-container-small {
+    margin-right: 20px;
+  }
+  
+  .portfolio-image-small {
+    width: 150px;
+    height: auto;
+    display: block;
+  }
+  
+  .portfolio-title {
+    color: $color-letra;
+    margin-top: 20px;
+    @include texto1;
+    text-decoration: underline;
+  }
+/*Fin de la seccion*/
